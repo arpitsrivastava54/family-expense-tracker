@@ -69,7 +69,7 @@ export default function RegisterPage() {
     })
 
     // Redirect to dashboard after successful registration
-    router.push("/dashboard")
+    router.push("/login")
   }
 
   return (
