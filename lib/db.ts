@@ -13,7 +13,7 @@ export async function connectToDatabase() {
 
   if (!cached.promise) {
     cached.promise = mongoose.connect(MONGODB_URI, {
-      dbName: "family-expense-tracker",
+      dbName: "expense-tracker",
       bufferCommands: false,
     }).then((mongoose) => mongoose);
   }
